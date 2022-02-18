@@ -126,7 +126,7 @@
 .video-mask{
   /* -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
-border: #5adf1c 5px solid;
+/* border: #5adf1c 5px solid; */
 }
 /* video{
   
