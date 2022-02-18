@@ -10,7 +10,7 @@ app.get("/",function(req,res){
 })
 
 app.get("/module",function(req,res){
-    res.render("home3");
+    res.render("index");
 
 });
 
