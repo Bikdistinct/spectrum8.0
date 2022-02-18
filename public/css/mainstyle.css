@@ -29,13 +29,14 @@
 }
 
 #image1 {
-  max-width: 37vw;
+  max-width: 20vw;
   animation-name: floating;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   margin-left: 30px;
   margin-top: 5px;
+ height: 30vh;
 }
 
 @keyframes floating {
@@ -67,11 +68,11 @@
 
 @media only screen and (max-device-width: 480px) {
   #para {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .connect {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   #nav-link {
@@ -121,10 +122,11 @@
     rgba(124, 131, 253, 1) 100%
   );
 }
-/* .video-mask{
-    -webkit-mask-image: url(http://f.cl.ly/items/1e181Q0e3j0L3L3z2j3Z/rect.svg);
-
-} */
+.video-mask{
+  /* -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
+border: #5adf1c 5px solid;
+}
 /* video{
   
     -moz-border-radius:40px;
