@@ -6,11 +6,21 @@ app.set("view engine","ejs");
 app.use(express.static("public"));
 
 app.get("/",function(req,res){
-    res.render("home2");
+    res.render("Index");
 })
 
-app.get("/module",function(req,res){
-    res.render("index");
+app.get("/Technical",function(req,res){
+    res.render("Technical");
+
+});
+
+app.get("/Literary",function(req,res){
+    res.render("Literary");
+
+});
+
+app.get("/Fun",function(req,res){
+    res.render("Fun");
 
 });
 
