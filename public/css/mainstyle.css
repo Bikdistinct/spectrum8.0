@@ -75,6 +75,12 @@
 }
 
 @media only screen and (max-device-width: 480px) {
+  #hero{
+    padding:2px;
+  }
+  .num{
+    font-size:15px ;
+  }
   #para {
     font-size: 45px;
   }
@@ -90,6 +96,9 @@
   #main{
     background-image: url(/images/back_mobile.png);
     background-size: cover;
+  }
+  #image1{
+    margin-left: 10px;
   }
 }
 
