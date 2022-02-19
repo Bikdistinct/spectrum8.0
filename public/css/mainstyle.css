@@ -76,11 +76,11 @@
 
 @media only screen and (max-device-width: 480px) {
   #para {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .connect {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   #nav-link {
@@ -179,4 +179,15 @@
         transform: translate(0, -0px);
       }
     
+}
+
+.bikBtn{
+  border-radius: 10px;
+  padding: 5px;
+  background: -webkit-linear-gradient(
+    91.46deg,
+    #1f0762 3.74%,
+    #86a8e7 51.1%,
+    #034944 99.46%
+  );
 }

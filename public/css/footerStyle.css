@@ -1,9 +1,10 @@
 .footer{
-    background: #111;
+    /* background: #111; */
+    background: linear-gradient(to right, #06033f, #3d0319);
     color: white;
     height: auto;
     width: 100% !important;
-    
+    border-radius:15px 25px 0px 0px ;
     padding-top: 20px;
 }
 .footer-content{
@@ -29,7 +30,8 @@
     color: aqua;
 }
 .footer-bottom{
-    background: black;
+    /* background: black; */
+    background: linear-gradient(to right, #06033f, #3d0319);
     text-align: center;
     /* width: 100vw; */
     padding: 15px 0;
