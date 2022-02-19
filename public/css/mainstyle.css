@@ -76,11 +76,11 @@
 
 @media only screen and (max-device-width: 480px) {
   #para {
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .connect {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   #nav-link {
